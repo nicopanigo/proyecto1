@@ -1,3 +1,6 @@
-h1 {
-    color: red;
-}
+//imports
+
+@import "bases/reset";
+@import "bases/home";
+@import "utilidades/mixin";
+@import "utilidades/variables";

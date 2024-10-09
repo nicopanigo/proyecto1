@@ -95,6 +95,15 @@ img{
     align-items: center;
 }
 
+/* html envios */
+
+.envios {
+    padding: 16px;
+}
+
+.texto-envios {
+    padding: 16px;
+}
 
 
 /* html ubicacion */
@@ -102,25 +111,55 @@ img{
 .texto-ubicacion{
     display: flex;
     justify-content: left;
+    padding: 36px;
+    border: 16px;
 }
 
 .mapa{
     display: flex;
     right: 1rem;
+    margin-bottom: 16px;
 }
 
 /* html contacto */
 .formulario{
     width: 40%;
-    display: grid;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 4px;
+    display: flex;
     justify-content: center;
+    background-color: #63804c;
     
+}
+
+.titulo {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.renglon {
+    padding: 10px;
+    border: 1px;
+}
+
+.boton {
+    margin-bottom: 16px;
+    background-color: #f1dddd;
+    border: #333;
+    padding: 6px;
+}
+
+.mensaje {
+    color: #333;
+    padding: 16px;
+    font-size: large;
 }
 
 .informacion-contacto{
     display: flex;
     justify-content: left;
-    padding: .5rem;
+    padding: 36px;
 }
 
 

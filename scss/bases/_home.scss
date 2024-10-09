@@ -1,0 +1,36 @@
+//import de variables
+@import "../utilidades/variables";
+
+//import mixin
+@import "../utilidades/mixin";
+
+
+header {
+    margin: 0 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EDE8D2;
+    padding: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            gap: 1.25rem;
+            padding-right: 1.25rem;
+            li a {
+                text-decoration: none;
+                color: #333;
+                padding: 0.625rem 0.9375rem;
+                border-radius: 1.875rem;
+                transition: background-color 0.3s ease;
+                &:hover {
+                    background-color: #CCD0AF;
+                }
+            }
+    }
+    img {
+        width: 120px;
+        height: auto;
+    }
+}
